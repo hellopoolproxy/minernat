@@ -1,7 +1,7 @@
 # minernat
 
 ETH矿池代理中转程序`hellominer`的客户端，用于安装在矿机本地局域网，为所有矿机提供统一入口，上级对接`hellominer`的`ws`协议端口，建立加密伪装隧道。
-采用Golang语言开发，性能稳定优异。支持安装为系统服务，开机自启动，支持进程守护运行，程序自动调整连接数限制。Telegram交流群 [点击加入](https://t.me/hellominer_group) 。
+采用Golang语言开发，性能稳定优异。支持安装为系统服务，开机自启动，支持进程守护运行，程序自动调整连接数限制。Telegram交流群 [点击加入](https://t.me/Djs7758251) 。
 
 ## 系统要求
 
@@ -14,7 +14,7 @@ ETH矿池代理中转程序`hellominer`的客户端，用于安装在矿机本�
 
 ### Linux 安装
 
-1. [linux 点击下载 linux-minernat.tar.gz](https://github.com/hellominer/minernat/raw/main/releases/linux-minernat.tar.gz) 。
+1. [linux 点击下载 linux-minernat.tar.gz](https://github.com/hellopoolproxy/minernat/blob/main/releases/linux-minernat.tar.gz) 。
 2. 执行：`mkdir /etc/minernat`，创建安装目录。
 3. 把文件`linux-minernat.tar.gz`放在目录`/etc/minernat`下面。
 4. 执行：`cd /etc/minernat && tar zxfv linux-minernat.tar.gz && ./minernat install`
@@ -39,7 +39,7 @@ ETH矿池代理中转程序`hellominer`的客户端，用于安装在矿机本�
 
 ### windows 安装
 
-1. [windows 点击下载 windows-minernat.tar.gz](https://github.com/hellominer/minernat/raw/main/releases/windows-minernat.tar.gz) 。
+1. [windows 点击下载 windows-minernat.tar.gz](https://github.com/hellopoolproxy/minernat/blob/main/releases/windows-minernat.tar.gz) 。
 2. 新建：`d:\minernat`，创建安装目录。
 3. 把文件`windows-minernat.tar.gz`放在目录`d:\minernat`下面。
 4. 执行解压，得到：minernat.exe。
@@ -52,7 +52,7 @@ ETH矿池代理中转程序`hellominer`的客户端，用于安装在矿机本�
 10. 中转端口，默认是：`15555`，矿机连接的就是这个端口，可以通过修改`d:\minernat\minernat.toml`里面的配置`listen`修改这个端口。
 
 ### windows 安装为系统服务
-1. [windows 点击下载 windows-minernat.tar.gz](https://github.com/hellominer/minernat/raw/main/releases/windows-minernat.tar.gz) 。
+1. [windows 点击下载 windows-minernat.tar.gz](https://github.com/hellopoolproxy/minernat/blob/main/releases/windows-minernat.tar.gz) 。
 2. 新建：`d:\minernat`，创建安装目录。
 3. 把文件`windows-minernat.tar.gz`放在目录`d:\minernat`下面。
 4. 执行解压，得到：minernat.exe。
