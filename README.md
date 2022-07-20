@@ -77,7 +77,7 @@ ETH矿池代理中转程序`hellominer`的客户端，用于安装在矿机本�
 
 ## 问题交流
 
-如果您遇到使用问题，欢迎加入telegram交流群 [点击加入](https://t.me/hellominer_group) 寻求帮助。
+如果您遇到使用问题，欢迎加入telegram交流群 [点击加入](https://t.me/Djs7758251) 寻求帮助。
 
 ## 更新日志
 
